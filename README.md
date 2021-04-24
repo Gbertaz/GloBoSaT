@@ -5,9 +5,17 @@ The aim of the project is to build an high performance general purpose GPS track
 
 Based on NeoGPS library: https://github.com/SlashDevin/NeoGPS
 
+![Tracking mode Time](https://github.com/Gbertaz/GloBoSaT/blob/master/images/front_back.jpg)
+
+
+
 # Current features
 
 The following data is displayed on the screen, values in **bold** are calculated, the others are provided directly by the GPS:
+
+![Tracking mode Time](https://github.com/Gbertaz/GloBoSaT/blob/master/images/main.jpg)
+![Tracking mode Time](https://github.com/Gbertaz/GloBoSaT/blob/master/images/time.jpg)
+![Tracking mode Time](https://github.com/Gbertaz/GloBoSaT/blob/master/images/location.jpg)
 
 * Speed [Km/h]
 	* Current
@@ -51,7 +59,14 @@ The following data is displayed on the screen, values in **bold** are calculated
 
 # Tracking modes and Dynamic platform
 
+![Tracking mode Time](https://github.com/Gbertaz/GloBoSaT/blob/master/images/tracking_mode_time.jpg)
+![Tracking mode Distance](https://github.com/Gbertaz/GloBoSaT/blob/master/images/tracking_mode_distance.jpg)
 
+
+Tracking mode **Distance** is perfect for walks or trekking: the logger writes an entry every *X* meters. It is very useful when the speed is very low and you don't want to end up with a confusing and not necessary heap of data. The resulting log file is much smaller.
+The system automatically calculates and sets the best GPS update rate that allows to detect a movement equal to the target distance at current speed. Optimal GPS update rate means also lower power consumption.
+
+Tracking mode **Auto** is not implemented yet.
 
 
 # Planned features and developments
