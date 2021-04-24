@@ -11,11 +11,11 @@ Based on NeoGPS library: https://github.com/SlashDevin/NeoGPS
 
 # Current features
 
-The following data is displayed on the screen, values in **bold** are calculated, the others are provided directly by the GPS:
-
 ![Tracking mode Time](https://github.com/Gbertaz/GloBoSaT/blob/master/images/main.jpg)
 ![Tracking mode Time](https://github.com/Gbertaz/GloBoSaT/blob/master/images/time.jpg)
 ![Tracking mode Time](https://github.com/Gbertaz/GloBoSaT/blob/master/images/location.jpg)
+
+The following data is displayed on the screen, values in **bold** are calculated, the others are provided directly by the GPS:
 
 * Speed [Km/h]
 	* Current
