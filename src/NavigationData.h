@@ -170,6 +170,7 @@ public:
 	bool hasValid2DFix();
 	bool hasValid3DFix();
 	bool hasValid4DFix();
+	void resetMissedFixCount() { missedFixCount = 0; }
 
 	void setTemperature(float t, bool valid){
 		temperature.current = t;

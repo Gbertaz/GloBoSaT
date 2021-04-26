@@ -344,6 +344,7 @@ void onGpsTargetDistanceSet(uint8_t meters){
 //Invoked when the user sets the Gps update rate from the Display setting page
 void onGpsRateSet(uint8_t updateRate){
   gpsM8n.requestUpdateRate((GpsNeoM8n::ubxUpdateRate)updateRate);
+  navData.resetMissedFixCount();
 }
 
 //Callback invoked when the user sets the Gps dynamic platfom from the Display setting page
