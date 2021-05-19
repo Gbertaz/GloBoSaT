@@ -6,8 +6,8 @@ The following are the results of the first simple comparison of two tracks recor
 Simple car ride of 4.2km indicated by the car odometer.\
 Both tracks were recorded under the same cloudy conditions, same temperature and with the same [Active antenna](https://www.gnss.store/rf-gps-antennas/25-high-performance-active-gps-antenna.html).
 
-Red:  NEO-M9N recorded @ 10hz\
-Blue: NE0-M8N recorded @ 5hz
+Red:  NEO-M9N [Tracking mode](doc/TrackingModes.md) TIME @ 10hz - automotive \
+Blue: NE0-M8N [Tracking mode](doc/TrackingModes.md) TIME @ 5hz - automotive
 
 ![Gps modules comparison](https://github.com/Gbertaz/GloBoSaT/blob/master/images/test1.png)
 
@@ -45,7 +45,7 @@ Time moving:		0:5:33
 Distance:		4,3 Km
 ```
  
- The same route has been recorded with the tracking mode set on DISTANCE and here is the output, notice the significantly reduced number of fixes:
+ The same route has been recorded with the [Tracking mode](doc/TrackingModes.md) set on DISTANCE and here is the output, notice the significantly reduced number of fixes:
  
 ![Tracking mode distance](https://github.com/Gbertaz/GloBoSaT/blob/master/images/detail10m.png)
 
