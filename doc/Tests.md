@@ -2,6 +2,8 @@
 
 The following are the results of the first simple comparison of two tracks recorded with the purchased [Ublox NEO-M8N Evaluation board](https://www.gnss.store/gnss-gps-modules/44-ublox-neo-m8n-gps-gnss-receiver-board-with-sma-for-uav-robots.html) and my [custom NEO-M9N board](https://github.com/Gbertaz/GloBoSaT/blob/master/images/neo-m9n.jpg). Far from being a scientific data comparison but enough to have an idea if my design works.
 
+I wanted to design a custom PCB to figure out if I can make the circuit to drive the Ublox GPS. Once I find a design that works, I can integrate the chip into any PCB without having to buy a pre-made evaluation boards.
+
 ### Test case
 Simple car ride of 4.2km indicated by the car odometer.\
 Both tracks were recorded under the same cloudy conditions, same temperature and with the same [Active antenna](https://www.gnss.store/rf-gps-antennas/25-high-performance-active-gps-antenna.html).
@@ -11,7 +13,14 @@ Blue: NE0-M8N [Tracking mode](doc/TrackingModes.md) TIME @ 5hz - automotive
 
 ![Gps modules comparison](https://github.com/Gbertaz/GloBoSaT/blob/master/images/test1.png)
 
- They seem to be pretty accurate. The NEO-M8N is a little bit off on the upper left corner and on the right of the picture. After having processed the tracks with the [parser](https://github.com/Gbertaz/GlobosatTrackParser) I got the following output:
+ They seem to be pretty accurate. The NEO-M8N is a little bit off on the upper left corner and on the right of the picture. See the details below:
+ 
+ 
+ ![Gps modules comparison](https://github.com/Gbertaz/GloBoSaT/blob/master/images/detail1.png)
+ ![Gps modules comparison](https://github.com/Gbertaz/GloBoSaT/blob/master/images/detail2.png)
+ 
+ 
+ After having processed the tracks with the [Parser](https://github.com/Gbertaz/GlobosatTrackParser) I got the following output:
  
 ```
 NEO-M8N TRACKING MODE TIME 5 Hz
@@ -45,7 +54,7 @@ Time moving:		0:5:33
 Distance:		4,3 Km
 ```
  
- The same route has been recorded with the [Tracking mode](doc/TrackingModes.md) set on DISTANCE and here is the output, notice the significantly reduced number of fixes:
+ The same route has been recorded with the NEO-M9N with [Tracking mode](doc/TrackingModes.md) set on DISTANCE and here is the output, notice the significantly reduced number of fixes:
  
 ![Tracking mode distance](https://github.com/Gbertaz/GloBoSaT/blob/master/images/detail10m.png)
 
