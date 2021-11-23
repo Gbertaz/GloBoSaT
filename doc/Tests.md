@@ -1,6 +1,6 @@
 # GPS modules comparison
 
-The following are the results of the first simple comparison of two tracks recorded with the purchased [Ublox NEO-M8N Evaluation board](https://www.gnss.store/gnss-gps-modules/44-ublox-neo-m8n-gps-gnss-receiver-board-with-sma-for-uav-robots.html) and my [custom NEO-M9N board](https://github.com/Gbertaz/GloBoSaT/blob/master/images/neo-m9n.jpg). Far from being a scientific data comparison but enough to have an idea if my design works.
+The following are the results of the first simple comparison of two tracks recorded with the purchased [Ublox NEO-M8N Evaluation board](https://www.gnss.store/gnss-gps-modules/44-ublox-neo-m8n-gps-gnss-receiver-board-with-sma-for-uav-robots.html) and my [custom NEO-M9N board](https://hackaday.io/project/182695-ublox-neo-m9n-gps-breakout-board). Far from being a scientific data comparison but enough to have an idea if my design works.
 
 I wanted to design a custom PCB to figure out if I can make the circuit to drive the Ublox GPS. Once I find a design that works, I can integrate the chip into any PCB without having to buy a pre-made evaluation boards.
 
