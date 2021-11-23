@@ -31,7 +31,7 @@ Based on NeoGPS library: https://github.com/SlashDevin/NeoGPS
 * Display 3.2" Nextion Enhanced Version NX4024K032
 * Adafruit Powerboost-1000C
 * [Ublox NEO-M8N Evaluation board](https://www.gnss.store/gnss-gps-modules/44-ublox-neo-m8n-gps-gnss-receiver-board-with-sma-for-uav-robots.html)
-* [Custom Ublox NEO-M9N board](https://github.com/Gbertaz/GloBoSaT/blob/master/images/neo-m9n.jpg)
+* [Custom Ublox NEO-M9N board](https://hackaday.io/project/182695-ublox-neo-m9n-gps-breakout-board)
 * [Active GNSS Antenna](https://www.gnss.store/rf-gps-antennas/28-high-performance-multi-band-gnss-active-quad-helix-antenna-for-rtk.html)
 * Temperature sensor DS18B20+
 * Resistors: 2 4.7K, 1 10K
